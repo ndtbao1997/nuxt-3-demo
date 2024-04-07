@@ -6,7 +6,7 @@
   <div>
     <header class="shadow-sm bg-white">
       <nav class="container mx-auto p-4">
-        <NuxtLink to="/products">Nuxt dojo</NuxtLink>
+        <NuxtLink to="/products">Products</NuxtLink>
       </nav>
     </header>
   </div>

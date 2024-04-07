@@ -6,7 +6,6 @@ const handleLogin = () => {
 const handleProducts = () => {
   navigateTo('/products')
 }
-
 </script>
 
 <template>
@@ -31,7 +30,7 @@ const handleProducts = () => {
       </nav>
     </header>
   </div>
-  <div class="container mx-auto p-4 flex justify-between border-t-2">
+  <div>
     <slot></slot>
   </div>
 </template>
