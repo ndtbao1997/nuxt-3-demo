@@ -4,11 +4,7 @@
 
 <template>
   <div>
-    <header class="shadow-sm bg-white">
-      <nav class="container mx-auto p-4">
-        <NuxtLink to="/products">Products</NuxtLink>
-      </nav>
-    </header>
+    <Header />
   </div>
   <div class="container mx-auto p-4">
     <slot></slot>

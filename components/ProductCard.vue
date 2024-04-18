@@ -4,10 +4,10 @@ const {product} = defineProps(['product'])
 
 <template>
 <div class="card text-center">
-  <img :src="product.image" alt="product" class="thumb">
-  <p class="font-bold text-gray-500 m-4 truncate">{{product.title}}</p>
-  <NuxtLink :to="`/products/${product.id}`">
-    <p class="btn my-4">View Details</p>
+  <img :src="product.profile" alt="product" class="thumb">
+  <p class="font-bold text-gray-500 m-4 truncate">{{product.name}}</p>
+  <NuxtLink :to="`/products/${product.product_id}`">
+    <p class="btn my-4">Chi tiết sản phẩm</p>
   </NuxtLink>
 </div>
 </template>
